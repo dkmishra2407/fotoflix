@@ -1,0 +1,21 @@
+figure{
+    border: 2px solid #ccc;
+    width: 350px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+form{
+    width: 400px;
+    border: 2px solid #ccc;
+    padding: 1rem;
+    margin: 10px auto;
+}
+
+input,label, textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

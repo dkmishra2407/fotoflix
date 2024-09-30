@@ -1,0 +1,217 @@
+**For a number to be divisible by 11, the difference of the sum of numbers at even and odd places should be either 0 or a multiple of 11.
+What is the unit\'s digit in the product (267)153 x (66666)72 
+**Dividend = (Divisor x Quotient) + Remainder
+
+**Two numbers are in the ratio of 5:7. If their LCM is 105, what is the difference between their squares ?
+
+Let \'h\' be the HCF of the two numbers. => The numbers are 5h and 7h. We know that Product of Numbers = LCM x HCF => 5h x 7h = 105 x h => h = 3 So, the numbers are 15 and 21. 
+
+**Nth term of the G.P is represented as Tn = a x rn-1
+
+**If the average of four consecutive odd numbers is 16, TAKE x,x+2,x+4,x+6
+**First, list down the factors of 32 and 14. (HCF-Highest Common Factor)
+
+The factors of 32 are: 1, 2, 4, 8, 16, 32
+The factors of 14 are: 1, 2, 7, 14
+We can see that 1, 2 are the only common factors of 32 and 14. Whereas 2 is the greatest among all the common factors.
+Hence, HCF of 32 and 14 is 2.
+
+**LCM 
+Multiples of 3: 3,6,9,12,15,18,21,24…
+Multiples of 4: 4,8,12,16,20,24, 28…
+The common multipliers of 3 and 4 are 12, 24…, So, the least common multiple is 12.
+
+Hence, LCM(3, 4) = 12
+
+**Find the largest four-digit number exactly divisible by 15,21 and 28. 
+
+Solution:
+
+The largest four-digit number is 9999. 
+
+Now, LCM (15, 21, 28) = 420 On dividing 9999 by 420, we get 339 as the remainder. 
+
+Therefore, the required number is 9999-339 = 9660 
+
+
+**The sum of two numbers is 1001, and their HCF is 7. Find the numbers.
+
+a + b = 1001 (Sum of the two numbers)
+HCF(a, b) = 7
+
+We know that if the HCF of two numbers divides their sum, then it also divides the difference of the two numbers.
+
+So, a – b is divisible by 7.
+
+** Find the LCM of 12, 18, and 24.
+
+Answer:
+
+12 = 22 × 3
+18 = 2 × 32
+24 = 23 × 3
+Now, to find the LCM, we need to take the highest power of each prime factor that appears in any of the numbers:
+
+The highest power of 2 is 23.
+The highest power of 3 is 32.
+Multiplying these together gives us:
+
+LCM = 23 × 32 = 8 × 9 = 72
+
+
+/////////////////////////////////////////////////////  WORK  ////////////////////////////////////////////////////////////////////
+
+M1 D1 H1 E1 / W1 = M2 D2 H2 E2 / W2, where 
+M = Number of workers 
+D = Number of days 
+H = Number of working hours in a day 
+E = Efficiency of workers 
+W = Units of work
+
+***Two friends A and B are employed to do a piece of work in 18 days. If A is twice as efficient as B, find the time taken by each friend to do the work alone. 
+Solution: 
+
+Let the efficiency of B be 1 unit / day. 
+=> Efficiency of A = 2 unit / day. 
+=> Combined efficiency of A and B = 2+1 = 3 units / day 
+=> Total work = No. of Days x Efficiency = 18 days x 3 units / day = 54 units 
+Therefore, time required by A to complete the work alone = 54/2 = 27 days 
+Time required by B to complete the work alone = 54/1 = 54 days
+
+
+**Two friends A and B were employed to do a work. Initial deadline was fixed at 24 days. Both started working together but after 20 days, A left the work and the whole work took 30 days to complete. In how much time can B alone can do the work?
+Explanation :
+Let the total work be 24 units. It is given that A and B together can do the work in 24 days. => Combined efficiency of A and B = 24/24 = 1 unit / day => Work done in 20 days = 20 units => Work left = 24 - 20 = 4 units Now, this remaining 4 units of work was done by B alone in 10 days. => Efficiency of B = 4/10 = 0.4 Therefore, time required by B alone to do the work = 24/0.4 = 60 days
+
+
+**600 men can make a road in 500 days. They start working together but after every hundred days, 50 men leave the work. Find the total time (in days) it takes to make the road.
+-->  TOTAL WORK = mens * no of days 
+
+/////////////////////////////////////////////////////////  COMPOUND INTEREST //////////////////////////////////////////////////////////////////////////////////
+
+**Amount, A = P [1 + (R / 100)]n, where P is the principal, R is the rate of interest per unit time period and n is the time period.
+**Compound Interest, CI = Amount – Principal
+If the compounding period is not annual, the rate of interest is divided in accordance with the compounding period. For example, if interest is compounded half-yearly, then the rate of interest would be R / 2, where ‘R’ is the annual rate of interest.
+If interest is compounded daily, the rate of interest = R / 365 and A = P [ 1 + ( {R / 365} / 100 ) ]T, where ‘T’ is the time period. For example, if we have to calculate the interest for 1 year, then T = 365. For 2 years, T = 730.
+     
+/////////////////////////////////////////////////////// TRIGNOMETRY  ////////////////////////////////////////////////////////////////////////////////////////
+
+
+**What is the maximum value of 3 Sinθ + 4 cosθ?
+Maximum value = √(a2 + b2) = 5
+Minimum value = √(a2 - b2)
+
+
+//////////////////////////////////////////////////////////////  ////////////////////////////////////////////////////////////////////////////////////////////////
+
+Shape
+Area Formula (Square Units)
+Perimeter Formula (Square Units)
+Square
+
+A = s² (where s is the length of a side)
+
+P = 4s (where s is the length of a side)
+
+Rectangle
+
+A = l × w (where l is the length, w is the width)
+
+P = 2(l + w) (where l is the length, w is the width)
+
+Circle
+
+A = πr² (where r is the radius)
+
+C = 2πr (where r is the radius)
+
+Scalene Triangle
+
+A = (b × h) / 2 (where b is the base, h is the height)
+
+P = a + b + c (where a, b, and c are the lengths of the sides)
+
+Isosceles Triangle
+
+A = (b × h) / 2 (where b is the base, h is the height)
+
+P = 2a + b (where a is the length of the equal sides, b is the length of the third side)
+
+Equilateral Triangle
+
+A = (√3 / 4) × a² (where a is the length of a side)
+
+P = 3a (where a is the length of a side)
+
+Right-Angled Triangle
+
+A = (b × h) / 2 (where b is the length of the base, h is the length of the height)
+
+P = a + b + c (where a, b, and c are the lengths of the sides)
+
+Rhombus
+
+A = (d₁ × d₂) / 2 (where d₁ and d₂ are the lengths of the diagonals)
+
+P = 4s (where s is the length of a side)
+
+Parallelogram
+
+A = b × h (where b is the base, h is the height)
+
+P = 2(a + b) (where a and b are the lengths of the parallel sides)
+
+Trapezium
+
+A = ((a + b) / 2) × h (where a and b are the lengths of the parallel sides, h is the height)
+
+P = a + b + c + d (where a, b, c, and d are the lengths of the sides)
+  
+*************************************************************************  3D  *********************************************************************************************
+
+Shape
+Volume Formula
+Curved Surface Area Formula
+Total Surface Area Formula
+
+Cube
+V = s³ (where s is the length of one side)
+
+CSA = 4s² (where s is the length of one side)
+
+TSA = 6s² (where s is the length of one side)
+
+Cuboid
+V = lwh (where l is the length, w is the width, h is the height)
+
+CSA = 2lh + 2wh (where l is the length, w is the width, h is the height)
+
+TSA = 2lw + 2lh + 2wh (where l is the length, w is the width, h is the height)
+
+Cylinder
+V = πr²h (where r is the radius, h is the height)
+
+CSA = 2πrh (where r is the radius, h is the height)
+
+TSA = 2πr(h + r) (where r is the radius, h is the height)
+
+Cone
+V = (1/3)πr²h (where r is the radius, h is the height)
+
+CSA = πrl (where r is the radius, l is the slant height)
+
+TSA = πr(r + l) (where r is the radius, l is the slant height)
+
+Sphere
+V = (4/3)πr³ (where r is the radius)
+
+CSA = 4πr² (where r is the radius)
+
+TSA = 4πr² (where r is the radius)
+
+Hemisphere
+V = (2/3)πr³ (where r is the radius)
+
+CSA = 2πr² (where r is the radius)
+
+TSA = 3πr² (where r is the radius)

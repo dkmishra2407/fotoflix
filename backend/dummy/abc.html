@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+
+const MARKET_HOLIDAYS_URL = 'https://www.nseindia.com/api/holiday-master?type=trading';
+
+async function fetchMarketHolidays() {
+    try {
+        const holidaysResponse = await axios.get(MARKET_HOLIDAYS_URL);
+        const holidays = holidaysResponse.data;
+        console.log(holidays);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+fetchMarketHolidays();
+
+</script>
+</html>

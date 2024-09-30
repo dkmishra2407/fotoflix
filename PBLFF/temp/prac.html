@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Gainers and Losers</title>
+</head>
+<body>
+  <h1>Top Gainers</h1>
+  <ul id="gainersList"></ul>
+
+  <h1>Top Losers</h1>
+  <ul id="losersList"></ul>
+
+  <script>
+    const apiUrl = 'https://www.nseindia.com/api/live-analysis-equity';
+
+    async function fetchGainersLosers() {
+      try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        if (response.ok) {
+          const { topGainers, topLosers } = data.data;
+
+          displayGainers(topGainers);
+          displayLosers(topLosers);
+        } else {
+          console.error('Error fetching data:', data.error);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    function displayGainers(gainers) {
+      const gainersList = document.getElementById('gainersList');
+      gainersList.innerHTML = '';
+
+      gainers.forEach(gainer => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${gainer.symbol}: ${gainer.change}`;
+        gainersList.appendChild(listItem);
+      });
+    }
+
+    function displayLosers(losers) {
+      const losersList = document.getElementById('losersList');
+      losersList.innerHTML = '';
+
+      losers.forEach(loser => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${loser.symbol}: ${loser.change}`;
+        losersList.appendChild(listItem);
+      });
+      
+    }
+
+    fetchGainersLosers();
+  </script>
+</body>
+</html>
